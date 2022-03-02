@@ -1,0 +1,30 @@
+<!-- <button (click)="CreatorsDataGet()">Click me </button> -->
+<div class="creators-owl-slider-main-div">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+
+        <div class="creators-owl-slider-main-slider">
+          <div class="owl-carousel owl-theme meet-the-creators-owl-div" id="meet-the-creators-owl" *ngFor="let creator of creators">
+
+            <div class="item">
+              <div class="creators-img-mask-slider-box">
+                <a href="creators-details.html" class="creators-img-link">
+                  <div class="creators-img-mask-thumb">
+                    <div class="img-thumb"> <img src="{{ creator.profile_image }}" class="img-fluid img-responsive" alt="image" /> </div>
+                    <div class="view-details-text"> <p><span class="block">View </span> <span class="block">Details</span></p> </div>
+                  </div>
+                </a>
+                <div class="creators-content-div">
+                  <h3><a href="creators-details.html" class="link">{{ creator.full_name }}</a></h3>
+                  <h4>{{ creator.key_skill }}</h4>
+                </div>
+              </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

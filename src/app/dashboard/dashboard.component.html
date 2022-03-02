@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Creator classes</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#191919">
+<meta name="msapplication-navbutton-color" content="#191919">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#191919">
+<link href='/assets/images/favicon.png' rel='shortcut icon'>
+<link href="/assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/fonts/gilroy/gilroy-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/fonts/moderat/moderat-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+<link href="/assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/owl.carousel.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/header.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/footer.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/select-custom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/select2-custom.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/modal-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/owl-slider-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/home-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/custom.css" media="all" rel="stylesheet" type="text/css" />
+<!-- <link href="/assets/css/loader-style7.css" media="all" rel="stylesheet" type="text/css" /> -->
+<!-- <script src="/assets/js/page-preloading-effect/modernizr.custom.js"></script> -->
+<!-- <script src="/assets/js/modernizr.js"></script> -->
+</head>
+
+<body>
+  <!-- For loader <body class="demo-1"> -->
+  <div id="ip-container" class="ip-container">
+
+    <!-- Loader 07 -->
+    <!-- <div class="ip-header">
+      <h1 class="ip-logo">
+        <img src="/assets/images/cc-animation.svg" class="img-fluid" alt="img" />
+      </h1>
+      <div class="ip-loader">
+        <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
+          <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+          <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg>
+      </div>
+    </div> -->
+    <!-- End of Loader 07 -->
+
+    <!-- ==================== Start Loading ==================== -->
+    <div class="preloader" id="preloader">
+      <div class="loading-text">Loading</div>
+    </div>
+    <!-- ==================== End Loading ==================== -->
+
+    <div id="wrapper" class="wrapper home-wrapper main-bg-color">
+      <header>
+        <div class="header-div no-collapse-header clearfix" >
+          <div class="inner-top-header-div clearfix">
+            <div class="container container-1200">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="header-container">
+
+                          <div class="logo-div">
+                            <a class="logo_link clearfix" routerLink="">
+                              <img src="/assets/images/white-icon-logo.svg" class="img-fluid logo_img main-logo" alt="logo" />
+                              <h1 class="text-logo"> <span class="text-logo-span1">Creator</span> <span class="text-logo-span2">classes</span></h1>
+                            </a>
+                          </div>
+
+                          <nav class="nav-center-div">
+                            <div class="top-nav1">
+                              <div class="cd-shadow-layer"></div>
+                              <div class="nav-m-bar">
+                                <a onclick="openNav()" class="opennav" data-placement="bottom" title="" data-original-title="Menu">
+                                  <i class="menu-bars menu-icon"></i>
+                                </a>
+                              </div>
+                              <div class="nav-div clearfix" id="mySidenav" >
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <div class="right-side">
+                                  <ul class="nav ullist-inline" id="nav-res" >
+                                    <li><a routerLink="login" [hidden]=isUserLogIn class="nav-link login-in-btn">Login</a></li>
+                                    <li><a routerLink="/login" [hidden]=!isUserLogIn (click)="logoutUser()" class="nav-link login-in-btn">Logout</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </nav>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div><!--  End of header with navigation div  -->
+      </header>
+
+
+      <div class="main-middle-area pt-custom-0">
+
+        <section class="main-banner-section" id="main-banner-section">
+          <div class="banner-div">
+
+            <div class="content-banner-root">
+              <div class="container container-1200">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6">
+
+                    <div class="content-banner">
+                      <div class="text-content">
+                        <h1><span class="block">Build Your Future Right Here</span></h1>
+
+                        <div class="banner-right-image-div d-none">
+                          <img src="/assets/images/latest/header-graphic.png" class="img-fluid" alt="image" />
+                        </div>
+
+                        <p>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec.</p>
+                        <div class="button-group-div">
+                          <!-- <a href="signup.html" class="btn btn-common btn-get-started min-width-280"> <span class="text">Get Started Now</span> </a> -->
+                          <a routerLink="signup" class="btn btn-primary-all">
+                            <span class="text">Get Started Now</span> <span class="span-rounded"><span class="material-icons"> keyboard_arrow_right </span></span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="banner-right-image-div m-none">
+                      <img src="/assets/images/latest/header-graphic.png" class="img-fluid" alt="image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bottom-arrow-root">
+              <div class="container container-1200">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+
+                    <div class="center-bottom-arrow-div">
+                      <a href="#our-classes-section" class="rounded-arrow-icon-btn">
+                        <span class="material-icons"> keyboard_arrow_down </span>
+                      </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="our-classes-section" id="our-classes-section">
+          <div class="our-classes-div">
+
+            <div class="heading-div">
+              <div class="container container-1200">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <div class="heading-inner-div">
+                      <div class="heading-title-row">
+                        <div class="heading-title-left">
+                          <h2>Our Classes</h2>
+                        </div>
+                        <div class="heading-title-right">
+                          <div class="form-group select2-form-group select2-new-group">
+                            <div class="select-box select-custom2 select-custom2-general round-12">
+                              <select class="js-select2" id="select-filter">
+                                <option>I'm yet to think...</option>
+                                <option>Option 2</option>
+                                <option>Option 3</option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="owl-slider-new-main-div">
+              <div class="container container-1200">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+
+                    <div class="owl-slider-new-main-slider">
+                      <div class="owl-carousel owl-theme our-classes-owl" id="our-classes-owl">
+
+                        <div class="item">
+                          <div class="our-video-common-slider-box">
+                            <div class="our-video-img-thumb">
+                              <div class="img-thumb"> <img src="/assets/images/live-card/img.png" class="img-fluid img-responsive" alt="image" /> </div>
+                              <div class="like-box-abs"> <button class="like-button"><span class="like-icon "> </span></button> </div>
+                              <div class="time-box-abs"> <button class="time-button"> 13:47 </button> </div>
+                            </div>
+                            <div class="our-content-div">
+                              <div class="our-content-row">
+                                <div class="our-content-full">
+                                  <h4><a href="">How to learn photography in an efficient way</a> </h4>
+                                </div>
+
+                                <div class="our-content-left">
+                                  <div class="thumb-img">
+                                    <a href="#" class="link">
+                                      <img src="/assets/images/creators/creators3.jpg" class="img-fluid user" alt="user" />
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="our-content-right">
+                                  <h3><a href="#" class="link">Mike Visuals <span class="icon-rounded-span check-icon-rounded"><span class="material-icons">done</span></span> </a></h3>
+                                  <p>Visual Expert</p>
+                                </div>
+                              </div>
+
+                              <div class="our-content-bottom-row">
+                                <div class="our-content-bottom-left">
+                                  <div class="label-div">
+                                    <span class="txt-label">Popular</span>
+                                  </div>
+                                </div>
+                                <div class="our-content-bottom-right">
+                                  <h4><span class="material-icons">schedule</span> <span class="txt">Posted 10 hours ago</span>  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="our-video-common-slider-box">
+                            <div class="our-video-img-thumb">
+                              <div class="img-thumb"> <img src="/assets/images/live-card/img-1.png" class="img-fluid img-responsive" alt="image" /> </div>
+                              <div class="like-box-abs"> <button class="like-button"><span class="like-icon "> </span></button> </div>
+                              <div class="time-box-abs"> <button class="time-button"> 13:47 </button> </div>
+                            </div>
+                            <div class="our-content-div">
+                              <div class="our-content-row">
+                                <div class="our-content-full">
+                                  <h4><a href="">How to learn photography in an efficient way</a> </h4>
+                                </div>
+
+                                <div class="our-content-left">
+                                  <div class="thumb-img">
+                                    <a href="#" class="link">
+                                      <img src="/assets/images/creators/creators3.jpg" class="img-fluid user" alt="user" />
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="our-content-right">
+                                  <h3><a href="#" class="link">Mike Visuals <span class="icon-rounded-span check-icon-rounded"><span class="material-icons">done</span></span> </a></h3>
+                                  <p>Visual Expert</p>
+                                </div>
+                              </div>
+
+                              <div class="our-content-bottom-row">
+                                <div class="our-content-bottom-left">
+                                  <div class="label-div">
+                                    <span class="txt-label">Popular</span>
+                                  </div>
+                                </div>
+                                <div class="our-content-bottom-right">
+                                  <h4><span class="material-icons">schedule</span> <span class="txt">Posted 10 hours ago</span>  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="our-video-common-slider-box">
+                            <div class="our-video-img-thumb">
+                              <div class="img-thumb"> <img src="/assets/images/live-card/img-2.png" class="img-fluid img-responsive" alt="image" /> </div>
+                              <div class="like-box-abs"> <button class="like-button"><span class="like-icon "> </span></button> </div>
+                              <div class="time-box-abs"> <button class="time-button"> 13:47 </button> </div>
+                            </div>
+                            <div class="our-content-div">
+                              <div class="our-content-row">
+                                <div class="our-content-full">
+                                  <h4><a href="">How to learn photography in an efficient way</a> </h4>
+                                </div>
+
+                                <div class="our-content-left">
+                                  <div class="thumb-img">
+                                    <a href="#" class="link">
+                                      <img src="/assets/images/creators/creators3.jpg" class="img-fluid user" alt="user" />
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="our-content-right">
+                                  <h3><a href="#" class="link">Mike Visuals <span class="icon-rounded-span check-icon-rounded"><span class="material-icons">done</span></span> </a></h3>
+                                  <p>Visual Expert</p>
+                                </div>
+                              </div>
+
+                              <div class="our-content-bottom-row">
+                                <div class="our-content-bottom-left">
+                                  <div class="label-div">
+                                    <span class="txt-label">Popular</span>
+                                  </div>
+                                </div>
+                                <div class="our-content-bottom-right">
+                                  <h4><span class="material-icons">schedule</span> <span class="txt">Posted 10 hours ago</span>  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="our-video-common-slider-box">
+                            <div class="our-video-img-thumb">
+                              <div class="img-thumb"> <img src="/assets/images/live-card/img-3.png" class="img-fluid img-responsive" alt="image" /> </div>
+                              <div class="like-box-abs"> <button class="like-button"><span class="like-icon "> </span></button> </div>
+                              <div class="time-box-abs"> <button class="time-button"> 13:47 </button> </div>
+                            </div>
+                            <div class="our-content-div">
+                              <div class="our-content-row">
+                                <div class="our-content-full">
+                                  <h4><a href="">How to learn photography in an efficient way</a> </h4>
+                                </div>
+
+                                <div class="our-content-left">
+                                  <div class="thumb-img">
+                                    <a href="#" class="link">
+                                      <img src="/assets/images/creators/creators3.jpg" class="img-fluid user" alt="user" />
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="our-content-right">
+                                  <h3><a href="#" class="link">Mike Visuals <span class="icon-rounded-span check-icon-rounded"><span class="material-icons">done</span></span> </a></h3>
+                                  <p>Visual Expert</p>
+                                </div>
+                              </div>
+
+                              <div class="our-content-bottom-row">
+                                <div class="our-content-bottom-left">
+                                  <div class="label-div">
+                                    <span class="txt-label">Popular</span>
+                                  </div>
+                                </div>
+                                <div class="our-content-bottom-right">
+                                  <h4><span class="material-icons">schedule</span> <span class="txt">Posted 10 hours ago</span>  </h4>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <div class="block-classes-common-pattern-root">
+          <section class="block-banner-new-classes-section block-banner-classes-01">
+            <div class="block-banner-new-classes-div">
+
+              <div class="block-banner-classes-root">
+                <div class="container">
+                  <div class="row align-items-center-row">
+
+                    <div class="col-lg-5 col-md-6 order-lg-2">
+                      <div class="center-content-div">
+                        <div class="center-content-row">
+                          <h2> <span class="block">Hundreds of </span> <span class="block">Classes</span> </h2>
+                          <div class="title-line-div">
+                            <h4>30+ creators added weekly</h4>
+                          </div>
+
+                          <div class="img-thumb-div d-none">
+                            <div class="img-thumb-inner">
+                              <img src="/assets/images/latest/hundreds-of-classes-graphic.png" class="img-fluid img-responsive" alt="img" />
+                            </div>
+                          </div>
+
+                          <div class="desc-div">
+                            <p>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, pura egestas non nisi. Curabitur aliquet quam id dui posuere blandit.Donec sollicitudin molestie khet malesuada Praesent sapien massa.</p>
+                          </div>
+                          <div class="button-group-div">
+                            <a href="#" class="btn btn-primary-outline btn-primary-outline-big">
+                              <span class="text">Start Watching</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-6 order-lg-1">
+                      <div class="img-thumb-div m-none blur-bg">
+                        <div class="img-thumb-inner">
+                          <img src="/assets/images/latest/hundreds-of-classes-graphic.png" class="img-fluid img-responsive" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="block-banner-new-classes-section block-banner-classes-02">
+            <div class="block-banner-new-classes-div">
+
+              <div class="block-banner-classes-root">
+                <div class="container">
+                  <div class="row align-items-center-row">
+
+                    <div class="col-lg-5 col-md-6">
+                      <div class="center-content-div">
+                        <div class="center-content-row">
+                          <h2> <span class="block">New Way </span> <span class="block">to Learn Live</span> </h2>
+                          <div class="title-line-div">
+                            <h4>Time to learn the new way</h4>
+                          </div>
+
+                          <div class="img-thumb-div d-none">
+                            <div class="img-thumb-inner">
+                              <img src="/assets/images/latest/live.png" class="img-fluid img-responsive" alt="img" />
+                            </div>
+                          </div>
+
+                          <div class="desc-div">
+                            <p>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>
+                          </div>
+                          <div class="button-group-div">
+                            <a href="#" class="btn btn-primary-outline btn-primary-outline-big">
+                              <span class="text">Get Started Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-6">
+                      <div class="img-thumb-div m-none">
+                        <div class="img-thumb-inner">
+                          <img src="/assets/images/latest/live.png" class="img-fluid img-responsive" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="block-banner-new-classes-section block-banner-classes-03">
+            <div class="block-banner-new-classes-div">
+
+              <div class="block-banner-classes-root">
+                <div class="container">
+                  <div class="row align-items-center-row">
+
+                    <div class="col-lg-5 col-md-6 order-lg-2">
+                      <div class="center-content-div">
+                        <div class="center-content-row">
+                          <h2> <span class="block">One To One </span> <span class="block">Sessions</span> </h2>
+                          <div class="title-line-div">
+                            <h4>Time to learn the new way</h4>
+                          </div>
+
+                          <div class="img-thumb-div d-none">
+                            <div class="img-thumb-inner">
+                              <img src="/assets/images/latest/onotoone.png" class="img-fluid img-responsive" alt="img" />
+                            </div>
+                          </div>
+
+                          <div class="desc-div">
+                            <p>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>
+                          </div>
+                          <div class="button-group-div">
+                            <a href="#" class="btn btn-primary-outline btn-primary-outline-big">
+                              <span class="text">Book Now</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-6 order-lg-1">
+                      <div class="img-thumb-div m-none">
+                        <div class="img-thumb-inner">
+                          <img src="/assets/images/latest/onotoone.png" class="img-fluid img-responsive" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="block-banner-new-classes-section block-banner-classes-04">
+            <div class="block-banner-new-classes-div">
+
+              <div class="block-banner-classes-root">
+                <div class="container">
+                  <div class="row align-items-center-row">
+
+                    <div class="col-lg-5 col-md-6">
+                      <div class="center-content-div">
+                        <div class="center-content-row">
+                          <h2> <span class="block">Materials </span> </h2>
+                          <div class="title-line-div">
+                            <h4>Level up your work with our vast library</h4>
+                          </div>
+                          <div class="img-thumb-div d-none">
+                            <div class="img-thumb-inner">
+                              <img src="/assets/images/latest/material.png" class="img-fluid img-responsive" alt="img" />
+                            </div>
+                          </div>
+                          <div class="desc-div">
+                            <p>Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit.</p>
+                          </div>
+                          <div class="button-group-div">
+                            <a href="#" class="btn btn-primary-outline btn-primary-outline-big">
+                              <span class="text">Learn More</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-7 col-md-6">
+                      <div class="img-thumb-div m-none blur-bg">
+                        <div class="img-thumb-inner">
+                          <img src="/assets/images/latest/material.png" class="img-fluid img-responsive" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+        </div>
+
+        <section class="meet-the-creators-section" id="meet-the-creators-section">
+          <div class="meet-the-creators-div">
+
+            <div class="heading-div">
+              <div class="container container-1200">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <div class="heading-inner-div">
+                      <h2>Meet The Creators</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <app-creator-listing></app-creator-listing>
+
+          </div>
+        </section>
+
+        <section class="testimonials-section" id="testimonials-section">
+          <div class="testimonials-div">
+
+            <div class="heading-div">
+              <div class="container container-1200">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <div class="heading-inner-div">
+                      <h2>Testimonials</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonials-owl-slider-main-div">
+              <div class="container container-1200">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+
+                    <div class="testimonials-slider-slider-root">
+                      <div class="owl-carousel owl-theme testimonials-owl-div" id="sync1">
+
+                        <div class="item">
+
+                          <div class="testimonials-card-box">
+                            <div class="testimonials-card-inner">
+                              <div class="user-top-row">
+                                <div class="img-thumb"> <img src="/assets/images/user-01.jpg" class="img-fluid img-responsive" alt="testimonials" /> </div>
+                                <div class="text-content-div">
+                                  <h3><a href="#" class="link">Brendon Shrek</a></h3>
+                                  <div class="star-row-div">
+                                    <ul class="star-rating-ul">
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="user-desc-row">
+                                <div class="desc-div">
+                                  <p>“Creator Classes is one of the best investments I've made as a freelance Content Creator. I bought this course to brush up on the more technical side of things that I had missed at the start of my journey, and boy do I wish this course was around when I first started! The classes are informative, entertaining and cover topics that you can’t find anywhere else. I highly recommend this if you want to develop a creative passion or if you’re serious about a career in this industry!”</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="testimonial-info">
+                            <h3>Ryan Bettins</h3>
+                            <p>Marketing Manager, Netflix </p>
+                          </div>
+
+                        </div>
+
+                        <div class="item">
+
+                          <div class="testimonials-card-box">
+                            <div class="testimonials-card-inner">
+                              <div class="user-top-row">
+                                <div class="img-thumb"> <img src="/assets/images/user-02.jpg" class="img-fluid img-responsive" alt="testimonials" /> </div>
+                                <div class="text-content-div">
+                                  <h3><a href="#" class="link">Lizzy Read</a></h3>
+                                  <div class="star-row-div">
+                                    <ul class="star-rating-ul">
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="user-desc-row">
+                                <div class="desc-div">
+                                  <p>“The quality of the Creator Classes content and visuals are unmatched! The information provided in each class is clear, detailed and thoroughly explained. As I'm starting to take my passion for creating content more seriously the ability to find invaluable and trusted information in one all-inclusive course is ideal. Each tutorial contains such a high volume of quality information that is clearly explained, so I can easily understand all the information without it ever feeling overwhelming! I've learnt so many pieces of information and nuggets of wisdom that will propel me forward on my creative journey.”</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="testimonial-info">
+                            <h3>Ryan Bettins</h3>
+                            <p>Marketing Manager, Netflix </p>
+                          </div>
+
+
+                        </div>
+
+                        <div class="item">
+
+                          <div class="testimonials-card-box">
+                            <div class="testimonials-card-inner">
+                              <div class="user-top-row">
+                                <div class="img-thumb"> <img src="/assets/images/user-01.jpg" class="img-fluid img-responsive" alt="testimonials" /> </div>
+                                <div class="text-content-div">
+                                  <h3><a href="#" class="link">Brendon Shrek</a></h3>
+                                  <div class="star-row-div">
+                                    <ul class="star-rating-ul">
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="user-desc-row">
+                                <div class="desc-div">
+                                  <p>“Creator Classes is one of the best investments I've made as a freelance Content Creator. I bought this course to brush up on the more technical side of things that I had missed at the start of my journey, and boy do I wish this course was around when I first started! The classes are informative, entertaining and cover topics that you can’t find anywhere else. I highly recommend this if you want to develop a creative passion or if you’re serious about a career in this industry!”</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="testimonial-info">
+                            <h3>Ryan Bettins</h3>
+                            <p>Marketing Manager, Netflix </p>
+                          </div>
+
+
+                        </div>
+
+                        <div class="item">
+
+                          <div class="testimonials-card-box">
+                            <div class="testimonials-card-inner">
+                              <div class="user-top-row">
+                                <div class="img-thumb"> <img src="/assets/images/user-02.jpg" class="img-fluid img-responsive" alt="testimonials" /> </div>
+                                <div class="text-content-div">
+                                  <h3><a href="#" class="link">Lizzy Read</a></h3>
+                                  <div class="star-row-div">
+                                    <ul class="star-rating-ul">
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="user-desc-row">
+                                <div class="desc-div">
+                                  <p>“The quality of the Creator Classes content and visuals are unmatched! The information provided in each class is clear, detailed and thoroughly explained. As I'm starting to take my passion for creating content more seriously the ability to find invaluable and trusted information in one all-inclusive course is ideal. Each tutorial contains such a high volume of quality information that is clearly explained, so I can easily understand all the information without it ever feeling overwhelming! I've learnt so many pieces of information and nuggets of wisdom that will propel me forward on my creative journey.”</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="testimonial-info">
+                            <h3>Ryan Bettins</h3>
+                            <p>Marketing Manager, Netflix </p>
+                          </div>
+
+                        </div>
+
+                        <div class="item">
+
+                          <div class="testimonials-card-box">
+                            <div class="testimonials-card-inner">
+                              <div class="user-top-row">
+                                <div class="img-thumb"> <img src="/assets/images/user-02.jpg" class="img-fluid img-responsive" alt="testimonials" /> </div>
+                                <div class="text-content-div">
+                                  <h3><a href="#" class="link">Lizzy Read</a></h3>
+                                  <div class="star-row-div">
+                                    <ul class="star-rating-ul">
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                      <li><span class="material-icons star-custom-icon active">star</span></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="user-desc-row">
+                                <div class="desc-div">
+                                  <p>“The quality of the Creator Classes content and visuals are unmatched! The information provided in each class is clear, detailed and thoroughly explained. As I'm starting to take my passion for creating content more seriously the ability to find invaluable and trusted information in one all-inclusive course is ideal. Each tutorial contains such a high volume of quality information that is clearly explained, so I can easily understand all the information without it ever feeling overwhelming! I've learnt so many pieces of information and nuggets of wisdom that will propel me forward on my creative journey.”</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="testimonial-info">
+                            <h3>Ryan Bettins</h3>
+                            <p>Marketing Manager, Netflix </p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                    <div class="testimonial-thumb">
+                      <div id="sync2" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="testimonial-profile">
+                              <img src="/assets/images/testimonial/t1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                          <div class="testimonial-profile">
+                            <img src="/assets/images/testimonial/t2.png" alt="">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="testimonial-profile">
+                            <img src="/assets/images/testimonial/t3.png" alt="">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="testimonial-profile">
+                            <img src="/assets/images/testimonial/t4.png" alt="">
+                          </div>
+                        </div>
+                        <div class="item">
+                          <div class="testimonial-profile">
+                            <img src="/assets/images/testimonial/t5.png" alt="">
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div>
+
+      <section class="our-pricing-plan-section" id="our-pricing-plan-section">
+        <div class="our-pricing-plan-div">
+          <div class="container container-800">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+
+                <div class="heading-div">
+                  <div class="heading-inner-div">
+                    <h2>Our Pricing Plan</h2>
+                    <h3>Our exclusive course in 2 sets</h3>
+                  </div>
+                </div>
+
+                <div class="our-pricing-plans-root">
+
+                  <div class="our-pricing-plans-top">
+                    <div class="our-pricing-plan-row">
+
+                      <div class="row justify-content-center">
+                        <div class="col-lg-6 col-md-6 d-none">
+                          <div class="our-pricing-plan-card">
+                            <input type="radio" class="custom-control-input" id="plan-select01" name="select-plan-custom">
+                            <label for="plan-select01" class="flex-plan-card-inner">
+                              <div class="check-icon-group">
+                                <span class="check-span-rounded"><i class="bg-custom-icon custom-check-icon"></i></span>
+                              </div>
+
+                              <div class="min-details-div">
+                                <div class="fp-title-top">
+                                  <div class="fp-title-top-left">
+                                    <span class="label-span">LITE</span>
+                                  </div>
+                                  <div class="fp-title-top-right">
+                                    <h3>$12 <span class="text-small">/Month</span></h3>
+                                    <p>$144 Billed Yearly</p>
+                                  </div>
+                                </div>
+                                <div class="desc-inner-box">
+                                  <ul class="check-list-ul">
+                                    <li>10 Exclusive Tutorials</li>
+                                    <li>Over 10 LUT's and Presets</li>
+                                    <li>Photoshop Brush Tools</li>
+                                    <li>Media Kit Templates</li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="plan-btn">
+                                <button class="btn btn-primary-outline btn-primary-outline-big">Get Started</button>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                          <div class="our-pricing-plan-card">
+                            <input type="radio" class="custom-control-input" id="plan-select02" name="select-plan-custom">
+
+                            <label for="plan-select02" class="flex-plan-card-inner">
+
+                              <div class="check-icon-group">
+                                <span class="check-span-rounded"><i class="bg-custom-icon custom-check-icon"></i></span>
+                              </div>
+
+                              <div class="min-details-div">
+                                <div class="fp-title-top">
+                                  <div class="fp-title-top-left">
+                                    <span class="label-span active">PRO</span>
+                                  </div>
+                                  <div class="fp-title-top-right">
+                                    <h3>$16 <span class="text-small">/Month</span></h3>
+                                    <p>$192 Billed Yearly</p>
+                                  </div>
+                                </div>
+                                <div class="desc-inner-box">
+                                  <ul class="check-list-ul">
+                                    <li>25 Exclusive Tutorials </li>
+                                    <li>Over 25 LUT's and Presets</li>
+                                    <li>Photoshop Brush Tools</li>
+                                    <li>SFX Pack</li>
+                                    <li>Media Kit Templates</li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="plan-btn">
+                                <label class="w-100" for="plan-select02">
+                                  <button class="btn btn-primary-outline btn-primary-outline-big btn-get-started-plan active">Get Started</button>
+                                </label>
+                              </div>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="creative-career-today-section">
+        <div class="creative-career-today-div">
+          <div class="container container-1200">
+            <div class="row">
+              <div class="col-lg-8 col-md-8">
+                <div class="content-div">
+                  <h2>Start your creative career today</h2>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4">
+                <div class="button-group-div">
+                  <a href="signup.html" class="btn btn-primary-all">
+                    <span class="text">Get Started Now</span> <span class="span-rounded"><span class="material-icons"> keyboard_arrow_right </span></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-div">
+
+          <div class="container container-1200">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+
+                <div class="footer-content-row">
+                  <div class="row">
+
+                    <div class="col-lg-4 col-md-3">
+
+                      <div class="content-footer-div">
+                        <div class="logo-footer">
+                          <a class="logo_link clearfix" href="index.html">
+                            <img src="/assets/images/white-icon-logo.svg" class="img-fluid logo_img main-logo" alt="logo">
+                            <h1 class="text-logo"> <span class="text-logo-span1">Creator</span> <span class="text-logo-span2">classes</span></h1>
+                          </a>
+                        </div>
+                        <div class="social-icon-div-root">
+                          <ul class="footer-social-ul">
+                            <li>
+                              <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                              <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-6">
+                      <div class="footer-nav-list-inner">
+                        <div class="footer-title-div">
+                          <h3>Cleator Classes </h3>
+                        </div>
+                        <ul class="footer-list-ul">
+                          <li><a href="#" class="link">Why Creator classes</a></li>
+                          <li><a href="#" class="link">Enterprise</a></li>
+                          <li><a href="#" class="link">Customer Stories</a></li>
+                          <li><a href="#" class="link">Pricing</a></li>
+                          <li><a href="#" class="link">Security</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-6">
+                      <div class="footer-nav-list-inner">
+                        <div class="footer-title-div">
+                          <h3>Quick Links </h3>
+                        </div>
+                        <ul class="footer-list-ul">
+                          <li><a href="#" class="link">FAQs</a></li>
+                          <li><a href="#" class="link">Login</a></li>
+                          <li><a href="#" class="link">Privacy Policy</a></li>
+                          <li><a href="#" class="link">Terms of use</a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                      <div class="footer-nav-list-inner">
+                        <div class="footer-title-div">
+                          <h3>Subscribe </h3>
+                        </div>
+
+                        <div class="mail-bx-div">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email address" />
+                            <div class="abs-bn-right-send"> <button class="btn btn-arrow-send"> <span class="material-icons"> keyboard_arrow_right </span></button></div>
+                          </div>
+                        </div>
+
+                        <div class="es-box-div">
+                          <div class="e-div">
+                            <a class="link link-icon-a" href="mailto:creatorclasses@gmail.com">
+                              <span class="icon-span"><span class="material-icons"> mail_outline </span></span> <span class="text">creatorclasses@gmail.com</span>
+                            </a>
+                          </div>
+                          <div class="e-div">
+                            <a class="link big-text-link" href="tel:54544566560"> <span class="text">+ 54 544 566 560</span> </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="footer-copyright-div">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                      <div class="footer-copyright-box-root">
+                        <p> <a href="#" class="link">CreatorClases</a> &copy; 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- end of wrapper -->
+
+  </div>
+
+  <div class="modal video-player-modal fade" id="ultimate-video-modal">
+    <div class="modal-dialog modal-dialog-centered modal-large">
+      <div class="modal-content">
+
+        <button type="button" class="close" data-dismiss="modal"> <i class="fe fe-x"></i> </button>
+
+        <div class="modal-body">
+          <div class="video-event-div">
+            <div class="video-event-inner">
+              <!-- <video class="video-fluid video-responsive" controls="controls" autoplay>
+                <source src="/assets/images/video/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video> -->
+              <iframe class="iframe-video-cover" src="https://player.vimeo.com/video/435440338?app_id=122963&amp;autoplay=0" width="426" height="240" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" title="CREATOR CLASSES"></iframe>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

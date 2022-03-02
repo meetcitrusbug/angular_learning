@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="490px" height="270px" viewBox="0 0 490 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 43</title>
+    <defs>
+        <polygon id="path-1" points="0 0 490 0 490 270 0 270"></polygon>
+        <linearGradient x1="-4.13362653%" y1="-0.374666667%" x2="-4.13362653%" y2="378.884593%" id="linearGradient-3">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.447328571%" y1="44.5033623%" x2="94.0334959%" y2="61.6405985%" id="linearGradient-4">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.039,0 L305.552489,0 C313.710259,32.8638204 298.750606,52.8690675 322.9008,94.6261 C353.2588,147.1168 384.6975,128.997 415.0555,181.4877 C437.671781,220.592437 425.986674,240.620553 431.112645,270 L156.194,270 L0.039,0 Z" id="path-5"></path>
+        <linearGradient x1="0.669439796%" y1="30.3935356%" x2="105.159236%" y2="130.11811%" id="linearGradient-7">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0.039,0 L305.552489,0 C313.710259,32.8638204 298.750606,52.8690675 322.9008,94.6261 C353.2588,147.1168 384.6975,128.997 415.0555,181.4877 C437.671781,220.592437 425.986674,240.620553 431.112645,270 L156.194,270 L0.039,0 Z" id="path-8"></path>
+        <linearGradient x1="108.038262%" y1="40.0579224%" x2="64.1481664%" y2="79.8934147%" id="linearGradient-10">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L244.386303,0 C228.332153,41.6044534 251.031706,60.7075222 224.7566,108.2433 C195.4235,161.3116 163.7078,143.6816 134.3746,196.74996 C116.587728,228.929336 121.246647,248.078568 121.131223,270 L0,270 L0,0 Z" id="path-11"></path>
+        <linearGradient x1="14.5199837%" y1="15.8521633%" x2="-86.7953287%" y2="116.566388%" id="linearGradient-13">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L244.386303,0 C228.332153,41.6044534 251.031706,60.7075222 224.7566,108.2433 C195.4235,161.3116 163.7078,143.6816 134.3746,196.74996 C116.587728,228.929336 121.246647,248.078568 121.131223,270 L0,270 L0,0 Z" id="path-14"></path>
+        <linearGradient x1="54.8589014%" y1="71.5720447%" x2="-29.7879955%" y2="71.3408581%" id="linearGradient-16">
+            <stop stop-color="#EF4443" offset="0%"></stop>
+            <stop stop-color="#EF6B18" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-43">
+            <g id="Group-3">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="#D8D8D8" mask="url(#mask-2)" points="-5 -5 495 -5 495 275 -5 275"></polygon>
+            </g>
+            <g id="Group-23">
+                <g id="Group-8">
+                    <polygon id="Fill-4" fill="url(#linearGradient-3)" points="0 270 490 270 490 0 0 0"></polygon>
+                    <polygon id="Fill-6" fill="url(#linearGradient-4)" points="0 270 490 270 490 0 0 0"></polygon>
+                </g>
+                <g id="Group-15" transform="translate(26.000000, 0.000000)">
+                    <g id="Group-11">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-10"></g>
+                        <polygon id="Fill-9" fill="url(#linearGradient-7)" mask="url(#mask-6)" points="-26 270 464 270 464 0 -26 0"></polygon>
+                    </g>
+                    <g id="Group-14">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <g id="Clip-13"></g>
+                        <polygon id="Fill-12" fill="url(#linearGradient-10)" mask="url(#mask-9)" points="-26 270 464 270 464 0 -26 0"></polygon>
+                    </g>
+                </g>
+                <g id="Group-22">
+                    <g id="Group-18">
+                        <mask id="mask-12" fill="white">
+                            <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="Clip-17"></g>
+                        <polygon id="Fill-16" fill="url(#linearGradient-13)" mask="url(#mask-12)" points="0 270 490 270 490 0 0 0"></polygon>
+                    </g>
+                    <g id="Group-21">
+                        <mask id="mask-15" fill="white">
+                            <use xlink:href="#path-14"></use>
+                        </mask>
+                        <g id="Clip-20"></g>
+                        <polygon id="Fill-19" fill="url(#linearGradient-16)" mask="url(#mask-15)" points="0 270 490 270 490 0 0 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

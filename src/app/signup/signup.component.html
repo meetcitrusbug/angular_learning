@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Sign up | Creator classes</title>
+<meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+<meta name="theme-color" content="#191919">
+<meta name="msapplication-navbutton-color" content="#191919">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#191919">
+<link href='/assets/images/favicon.png' rel='shortcut icon'>
+<link href="/assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/fonts/gilroy/gilroy-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/fonts/moderat/moderat-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
+<link href="/assets/css/feather.min.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/custom-forms-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/auth-style.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+<script src="/assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div id="wrapper" class="wrapper login-wrapper">
+
+	<div class="main-middle-area pt-custom-0">
+
+    <section class="auth-section" id="login-section">
+      <div class="auth-div">
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 p-0">
+
+              <div class="auth-root-div">
+
+                <div class="auth-left-side">
+                  <div class="auth-banner-div">
+
+                    <div class="img-thumb">
+                      <div class="logo-auth-div">
+                        <div class="logo-div">
+                          <a class="logo_link clearfix" href="index.html">
+                            <img src="/assets/images/white-icon-logo.svg" class="img-fluid logo_img main-logo" alt="logo">
+                            <h1 class="text-logo"> <span class="text-logo-span1">Creator</span> <span class="text-logo-span2">classes</span></h1>
+                          </a>
+                        </div>
+                      </div>
+
+                      <img src="/assets/images/background/banner-auth-logo.png" class="img-fluid" alt="img" />
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="auth-right-side">
+
+                  <div class="auth-content-broot-div">
+                    <div class="auth-content-div">
+
+                      <div class="auth-top-area-div">
+
+                        <div class="heading-div">
+                          <h2>Signup to Creator Classes</h2>
+                        </div>
+
+                        <div class="form-auth-root form-general-root">
+                          <div class="form-root-main">
+                            <form [formGroup]='signupForm' class="form-root common-form-div" (ngSubmit)="getUserData()">
+
+                              <div class="row mlr-8">
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="social-button-div">
+                                    <div class="sb-div-row">
+                                      <div class="sb-div">
+                                        <a href="#" class="btn btn-blck-sb btn-blck-sb-full google-btn">
+                                          <span class="img-icon"> <span class="bg-custom-icon google-icon"></span> </span>
+                                          <span class="text-div"> Signup with Google </span>
+                                        </a>
+                                      </div>
+                                      <div class="sb-div">
+                                        <a href="#" class="btn btn-blck-sb btn-blck-sb-full facebook-btn">
+                                          <span class="img-icon"> <span class="bg-custom-icon facebook-icon"></span> </span>
+                                          <span class="text-div"> Facebook </span>
+                                        </a>
+                                      </div>
+                                      <div class="sb-div">
+                                        <a href="#" class="btn btn-blck-sb btn-blck-sb-full twitter-btn">
+                                          <span class="img-icon"> <span class="bg-custom-icon twitter-icon"></span> </span>
+                                          <span class="text-div"> Twitter </span>
+                                        </a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="or-separator-div">
+                                    <p>or</p>
+                                  </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="form-group mb-30">
+                                    <label class="label-text">Username or email</label>
+                                    <div class="form-group-control">
+                                      <input type="text" class="form-control" placeholder="" formControlName="user">
+                                    </div>
+                                    <div class="invalid-feedback" *ngIf="user && user.invalid && user.touched" style="color: red;display: block;">Please enter your username</div>
+                                  </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="form-group mb-30">
+                                    <label class="label-text">Email</label>
+                                    <div class="form-group-control">
+                                      <input type="email" class="form-control" placeholder="" formControlName="email">
+                                    </div>
+                                    <div class="invalid-feedback" *ngIf="email && email.invalid && email.touched" style="color: red;display: block;">Please enter your email</div>
+                                  </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="form-group mb-30">
+                                    <label class="label-text">Password</label>
+                                    <div class="form-group-control pass-form-group-control">
+                                      <input [type]=passFieldType #password1 id="password1" (keyup)="getPassword(password1.value)" class="form-control" placeholder="" formControlName="password">
+                                      <span class="icon-group pass-icon-group">
+                                        <button type="button" id="show_password1" (click)="changePassField(password1.type)" name="show_password" class="pass-hide password-view-click">
+                                          <span class="pass-custom-icon material-icons"> visibility </span>
+                                        </button>
+                                      </span>
+                                    </div>
+
+                                    <div class="invalid-feedback" *ngIf="password && password.invalid && password.touched" style="color: red;display: block;">Please enter your password</div>
+                                  </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="form-group mb-30">
+                                    <label class="label-text">Confirm Password</label>
+                                    <div class="form-group-control pass-form-group-control">
+                                      <input [type]=pass1FieldType #confirmPassword id="password2" (keyup)="getConfirmPassword(confirmPassword.value)" class="form-control" placeholder="" formControlName="confirm_pass">
+                                      <span class="icon-group pass-icon-group">
+                                        <button type="button" (click)="changePass1Field(confirmPassword.type)" id="show_password2" name="show_password" class="pass-hide password-view-click">
+                                          <span class="pass-custom-icon material-icons"> visibility </span>
+                                        </button>
+                                      </span>
+                                    </div>
+
+                                    <div class="invalid-feedback" *ngIf="error" style="color: red;display: block;">Please check your password and confirm password</div>
+                                    <div class="invalid-feedback" *ngIf="errorMessage != ''" style="color: red;display: block;">{{ errorMessage }}</div>
+                                  </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="custom-control custom-checkbox mb-45">
+                                    <input type="checkbox" class="custom-control-input" id="remember-me-card" formControlName="remember_me">
+                                    <label class="custom-control-label" for="remember-me-card">Remember me</label>
+                                  </div>
+                                </div>
+
+                                <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                                  <div class="general-form-btn">
+                                    <div class="general-form-left-btn">
+                                      <button type="submit" (click)="checkpassword()" [disabled]="signupForm.invalid" class="btn btn-common-primary mh-btn55 btn-signup">Sign Up</button>
+                                    </div>
+                                    <div class="general-form-right-btn">
+                                      <p class="text-link">Are you a instructor <a href="#" class="link link-primary-auth">Sign up here </a></p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+
+                            </form>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="auth-bottom-area-div">
+                        <div class="row mlr-8">
+                          <div class="col-xl-12 col-lg-12 col-md-12 plr-8">
+                            <div class="bottom-row">
+                              <div class="bottom-left-bx">
+                                <div class="link-box text-center-reg-side">
+                                  <p>Already have an account?  <a routerLink="/login" class="btn btn-link btn-red-link">Sign in</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+</div><!-- end of wrapper -->
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+
+  $(document).ready(function () {
+
+    for (let i=1; i < 10; i++){
+      $('#show_password'+i).on('click', function () {
+        var passwordField2 = $('#password'+i);
+        var passwordFieldType2 = passwordField2.attr('type');
+
+        if (passwordField2.val() != '') {
+          if (passwordFieldType2 == 'password') {
+            passwordField2.attr('type', 'html');
+            $(this).html('<span class="pass-custom-icon material-icons password-hide"> visibility_off </span>');
+          }
+          else {
+            passwordField2.attr('type', 'password');
+            $(this).html('<span class="pass-custom-icon material-icons password-view"> visibility </span>');
+          }
+        }
+      });
+    }
+
+  });
+</script>
+
+</body>
+</html>

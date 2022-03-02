@@ -2,12 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AngularTask</title>
+  <title>Creator Classes</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <app-root></app-root>
+
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/js/get-owl-slider.js"></script>
+<script src="/assets/js/select2.full.js"></script>
+<!-- <script src="/assets/js/page-preloading-effect/classie.js"></script>
+<script src="/assets/js/page-preloading-effect/pathLoader.js"></script>
+<script src="/assets/js/page-preloading-effect/main.js"></script> -->
+<!-- loader2 js -->
+<!-- <script src="/assets/js/page-preloading-effect/loader-custom.js"></script> -->
+<script src="/assets/js/custom.js"></script>
+
+<script>
+  $(document).ready(function() {
+
+    /* select 2 */
+    $(".js-select2").select2({
+      placeholder: "Select here",
+      dropdownPosition: 'below',
+      minimumResultsForSearch: -1,
+    });
+    /* End of select 2 */
+  });
+</script>
 </body>
 </html>
