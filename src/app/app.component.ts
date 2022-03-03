@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular_Task';
-  logout_url = "https://admin.creatorclasses.co/api/v1/user/logout/"
+  url = "https://admin.creatorclasses.co/api/v1/user"
 }

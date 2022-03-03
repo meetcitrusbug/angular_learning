@@ -1,6 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import {FormGroup, FormControl, Validators} from '@angular/forms'
-import {LoginService} from './Services/login.service'
+import {LoginService} from '../Services/login.service'
 import { Router } from '@angular/router';
 
 @Component({

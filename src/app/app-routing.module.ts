@@ -6,7 +6,7 @@ import {DashboardComponent} from './dashboard/dashboard.component'
 import {UserHomeComponent} from './user-home/user-home.component'
 import {ForgetPasswordComponent} from './forget-password/forget-password.component';
 import {AuthGuardGuard} from './Guard/auth-guard.guard'
-import {RoleGuard} from './role-guard/role.guard'
+import {RoleGuard} from './Guard/role.guard'
 
 const routes: Routes = [
   {path:'', component:DashboardComponent},
